@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1000.0" style="-fx-background-color: white;" styleClass="sytleUber" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HelpWindowController">
+   <children>
+      <Text layoutX="57.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wie erstelle ich die Verbindung zu meiner Datenbak auf?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menü -&gt; Einstellungen -&gt; Datenbankeinstellungen -&gt; Ip-Adresse, Datenbankname, Benutzername und Passwort eingeben und speichern." />
+      <Text layoutX="57.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wie importiere ich Dateien in i2b2?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Im Menü auswählen welche Dateien man importieren möche -&gt; Dateipfad (IP-Adresse bei SNOMED und LOINC) auswählen -&gt;" />
+      <Text layoutX="80.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Das Jahr der zu importierenden Daten wählen und Vorgang starten" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,4 @@
+DB-IP= "192.168.145.129"
+DB-NAME= "TestData"
+DB-USER= "remote"
+DB-PASSWORD= "admin"
